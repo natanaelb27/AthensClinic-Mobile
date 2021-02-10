@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/paprika"
+        android:text="ID Resep Obat: "
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView41"
+        android:fontFamily="@font/paprika"
+        android:text="ID Appointment: "
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView42"
+        android:fontFamily="@font/paprika"
+        android:text="Tanggal Appointment: "
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView43"
+        android:fontFamily="@font/paprika"
+        android:text="Nama Pasien: "
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView44"
+        android:fontFamily="@font/paprika"
+        android:text="Nama Obat: "
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView46"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView45"
+        android:fontFamily="@font/paprika"
+        android:text="Jumlah: "
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/idResepObatROL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/textView41"
+        android:fontFamily="@font/paprika"
+        android:text="ID Resep Obat"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/idAppointmentROL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idResepObatROL"
+        android:layout_toRightOf="@id/textView42"
+        android:fontFamily="@font/paprika"
+        android:text="ID Appointment"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/tanggalAppointmentROL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idAppointmentROL"
+        android:layout_toRightOf="@id/textView43"
+        android:fontFamily="@font/paprika"
+        android:text="Tanggal Appointment"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/namaPasienROL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tanggalAppointmentROL"
+        android:layout_toRightOf="@id/textView44"
+        android:fontFamily="@font/paprika"
+        android:text="Nama Pasien"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/namaObatROL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/namaPasienROL"
+        android:layout_toRightOf="@id/textView45"
+        android:fontFamily="@font/paprika"
+        android:text="Nama Obat"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/jumlahROL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/namaObatROL"
+        android:layout_toRightOf="@id/textView46"
+        android:fontFamily="@font/paprika"
+        android:text="Jumlah"
+        android:textSize="12sp" />
+</RelativeLayout>

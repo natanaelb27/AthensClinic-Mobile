@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+
+    <TextView
+        android:id="@+id/textView64"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/paprika"
+        android:text="Nama Obat: "
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView65"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView64"
+        android:fontFamily="@font/paprika"
+        android:text="Jumlah: "
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView66"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView65"
+        android:fontFamily="@font/paprika"
+        android:text="Harga satuan: "
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView70"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView66"
+        android:fontFamily="@font/paprika"
+        android:text="Total Harga: "
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/namaObatDibeli"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/textView64"
+        android:fontFamily="@font/paprika"
+        android:text="nama"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/jumlahDibeli"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/namaObatDibeli"
+        android:layout_toRightOf="@id/textView65"
+        android:fontFamily="@font/paprika"
+        android:text="jumlah"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/hargaDibeli"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/jumlahDibeli"
+        android:layout_toRightOf="@id/textView66"
+        android:fontFamily="@font/paprika"
+        android:text="harga"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/totalDibeli"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hargaDibeli"
+        android:layout_toRightOf="@id/textView60"
+        android:fontFamily="@font/paprika"
+        android:text="total"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView60"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hargaDibeli"
+        android:layout_toRightOf="@id/textView70"
+        android:fontFamily="@font/paprika"
+        android:text="Rp. "
+        android:textSize="12sp" />
+
+</RelativeLayout>

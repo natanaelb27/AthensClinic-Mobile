@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#81D5FF"
+    tools:context=".HomeResepsionis">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="202dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/prosesPembayaran"
+                android:layout_width="match_parent"
+                android:layout_height="450px"
+                android:layout_marginTop="25dp"
+                android:background="@android:color/transparent"
+                android:padding="30dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/pembayaran" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/paprika"
+                android:text="Proses Pembayaran"
+                android:textAlignment="center"
+                android:textSize="12sp" />
+
+            <ImageButton
+                android:id="@+id/obatResepsionis"
+                android:layout_width="match_parent"
+                android:layout_height="450px"
+                android:layout_marginTop="25dp"
+                android:background="@android:color/transparent"
+                android:padding="30dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/trackingresepobat" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/paprika"
+                android:text="Obat Pasien"
+                android:textAlignment="center"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/appointmentResepsionis"
+                android:layout_width="match_parent"
+                android:layout_height="450px"
+                android:layout_marginTop="25dp"
+                android:background="@android:color/transparent"
+                android:padding="30dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/appointment" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/paprika"
+                android:text="Appointment Pasien"
+                android:textAlignment="center"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

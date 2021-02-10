@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/paprika"
+        android:text="ID Appointment: "
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView35"
+        android:fontFamily="@font/paprika"
+        android:text="Tanggal Appointment: "
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView36"
+        android:fontFamily="@font/paprika"
+        android:text="Nama Pasien: "
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView37"
+        android:fontFamily="@font/paprika"
+        android:text="Nama Dokter: "
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView38"
+        android:fontFamily="@font/paprika"
+        android:text="Jenis Appointment: "
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView39"
+        android:fontFamily="@font/paprika"
+        android:text="Waktu Appointment: "
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/idAppointmentRL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/textView35"
+        android:fontFamily="@font/paprika"
+        android:text="ID Appointment"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/tanggalAppointmentRL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idAppointmentRL"
+        android:layout_toRightOf="@id/textView36"
+        android:fontFamily="@font/paprika"
+        android:text="Tanggal Appointment"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/namaPasienRL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tanggalAppointmentRL"
+        android:layout_toRightOf="@id/textView37"
+        android:fontFamily="@font/paprika"
+        android:text="Nama Pasien"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/namaDokterRL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/namaPasienRL"
+        android:layout_toRightOf="@id/textView38"
+        android:fontFamily="@font/paprika"
+        android:text="Nama Dokter"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/jenisAppointmentRL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/namaDokterRL"
+        android:layout_toRightOf="@id/textView39"
+        android:fontFamily="@font/paprika"
+        android:text="Jenis Appointment"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/waktuAppointmentRL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/jenisAppointmentRL"
+        android:layout_toRightOf="@id/textView40"
+        android:fontFamily="@font/paprika"
+        android:text="Waktu Appointment"
+        android:textSize="12sp" />
+
+</RelativeLayout>

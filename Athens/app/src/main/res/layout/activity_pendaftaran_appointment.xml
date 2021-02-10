@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#81D5FF"
+    android:padding="10dp"
+    tools:context=".PendaftaranAppointment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:fontFamily="@font/paprika"
+            android:text="Tanggal" />
+
+        <LinearLayout
+            android:layout_width="272dp"
+            android:layout_height="45dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tglAppointment"
+                android:layout_width="145dp"
+                android:layout_height="match_parent"
+
+                android:fontFamily="@font/paprika"
+                android:gravity="center_vertical" />
+
+            <ImageButton
+                android:id="@+id/dateBtn"
+                android:layout_width="143dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/iconfinder_calendar_64px" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30px"
+            android:fontFamily="@font/paprika"
+            android:text="Pilih Dokter" />
+
+        <Spinner
+            android:id="@+id/spinnerDokter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30px"
+            android:fontFamily="@font/paprika"
+            android:text="Pilih Jenis Appointment" />
+
+        <Spinner
+            android:id="@+id/spinnerJenis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30px"
+            android:fontFamily="@font/paprika"
+            android:text="Waktu Appointment untuk Pilihan Anda:" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/waktuAppointment"
+                android:layout_width="227dp"
+                android:layout_height="wrap_content"
+
+                android:fontFamily="@font/paprika"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/showWaktu"
+                android:layout_width="115dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="30px"
+                android:layout_weight="1"
+                android:background="#009688"
+                android:fontFamily="@font/paprika"
+                android:text="Show"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30px"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/SubmitAppointmentBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:background="#2196F3"
+                android:fontFamily="@font/paprika"
+                android:text="Submit"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/daftarBack"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="#FF594F"
+                android:fontFamily="@font/paprika"
+                android:layout_marginLeft="10dp"
+                android:text="Back"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

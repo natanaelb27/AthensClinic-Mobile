@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/textView50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/paprika"
+        android:text="Id Appointment: "
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView52"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView50"
+        android:fontFamily="@font/paprika"
+        android:text="Tanggal Appointment: "
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView53"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView52"
+        android:fontFamily="@font/paprika"
+        android:text="Nama Pasien: "
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView54"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView53"
+        android:fontFamily="@font/paprika"
+        android:text="Nomor Telpon: "
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView55"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView54"
+        android:fontFamily="@font/paprika"
+        android:text="Nama Dokter: "
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView56"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView55"
+        android:fontFamily="@font/paprika"
+        android:text="Jenis Appointment: "
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView57"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView56"
+        android:fontFamily="@font/paprika"
+        android:text="Waktu Appointment: "
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/idAppointmentPem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/textView50"
+        android:fontFamily="@font/paprika"
+        android:text="id"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/tglAppointmentPem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idAppointmentPem"
+        android:layout_toRightOf="@id/textView52"
+        android:fontFamily="@font/paprika"
+        android:text="tgl"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/namaPasienPem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tglAppointmentPem"
+        android:layout_toRightOf="@id/textView53"
+        android:fontFamily="@font/paprika"
+        android:text="namaP"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/noTelponPem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/namaPasienPem"
+        android:layout_toRightOf="@id/textView54"
+        android:fontFamily="@font/paprika"
+        android:text="noTelp"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/namaDokterPem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/noTelponPem"
+        android:layout_toRightOf="@id/textView55"
+        android:fontFamily="@font/paprika"
+        android:text="namaD"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/jenisAppointmentPem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/namaDokterPem"
+        android:layout_toRightOf="@id/textView56"
+        android:fontFamily="@font/paprika"
+        android:text="jenis"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/waktuAppointmentPem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/jenisAppointmentPem"
+        android:layout_toRightOf="@id/textView57"
+        android:fontFamily="@font/paprika"
+        android:text="waktu"
+        android:textSize="12sp" />
+</RelativeLayout>

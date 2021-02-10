@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#81D5FF"
+    android:padding="10dp"
+    tools:context=".TrackingResepObat">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/paprika"
+                android:padding="5dp"
+                android:text="Silahkan click obat dibawah untuk memilih obat yang ingin dibeli ataupun menghapusnya dari resep obat Anda" />
+
+            <ListView
+                android:id="@+id/listViewObat"
+                android:layout_width="match_parent"
+                android:layout_height="324dp"
+                android:padding="5dp"
+                android:background="@drawable/border_list">
+
+            </ListView>
+
+            <Button
+                android:id="@+id/backTrackingResepObat"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="#FF594F"
+                android:fontFamily="@font/paprika"
+                android:padding="5dp"
+                android:layout_marginTop="10dp"
+                android:text="Back"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

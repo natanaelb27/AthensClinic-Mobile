@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/paprika"
+        android:text="Nama Obat: "
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView19"
+        android:fontFamily="@font/paprika"
+        android:text="Jumlah: "
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView20"
+        android:fontFamily="@font/paprika"
+        android:text="Harga Satuan: Rp."
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/namaObatL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/textView19"
+        android:fontFamily="@font/paprika"
+        android:text="Nama Obat"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/jumlahObatL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/namaObatL"
+        android:layout_toRightOf="@id/textView20"
+        android:fontFamily="@font/paprika"
+        android:text="Jumlah"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/hargaObatL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/jumlahObatL"
+        android:layout_toRightOf="@id/textView32"
+        android:fontFamily="@font/paprika"
+        android:text="Harga"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/idObatL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView32"
+        android:fontFamily="@font/paprika"
+        android:text="ID"
+        android:textSize="12sp"
+        android:visibility="invisible" />
+</RelativeLayout>

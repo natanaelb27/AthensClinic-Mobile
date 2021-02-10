@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#81D5FF"
+    android:padding="10dp"
+    tools:context=".ResepObatPasien">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/paprika"
+                android:text="Appointment" />
+
+            <Spinner
+                android:id="@+id/spinAppointmentDokter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:fontFamily="@font/paprika"
+                android:text="Obat" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:orientation="horizontal">
+
+                <Spinner
+                    android:id="@+id/spinnerObat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <EditText
+                    android:id="@+id/quantityObat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:fontFamily="@font/paprika"
+                    android:inputType="number" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/addObatBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="#009688"
+                android:fontFamily="@font/paprika"
+                android:layout_gravity="right"
+                android:padding="5dp"
+                android:text="Add"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/confirmAppointment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:background="#2196F3"
+                    android:fontFamily="@font/paprika"
+                    android:text="Confirm"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF" />
+
+                <Button
+                    android:id="@+id/backResep"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:background="#FF594F"
+                    android:fontFamily="@font/paprika"
+                    android:text="Back"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
